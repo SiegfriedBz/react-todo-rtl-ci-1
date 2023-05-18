@@ -44,5 +44,4 @@ describe('Header component', () => {
         const absentElement = screen.queryByText("random text")
         expect(absentElement).not.toBeInTheDocument()
     })
-
 })
