@@ -21,7 +21,7 @@ export default function FollowersList() {
             <div>
                 {followers.map(follower => (
                     <div className="follower-item">
-                        <img src={follower.picture.large}/>
+                        <img src={follower.picture.large} alt={follower.name}/>
                         <div className="followers-details">
                             <div className="follower-item-name">
                                 <h4>{follower.name.first}</h4> <h4>{follower.name.last}</h4>
