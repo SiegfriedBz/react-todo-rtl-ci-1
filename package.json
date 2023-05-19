@@ -22,7 +22,10 @@
     "test": "react-scripts test",
     "test:coverage": "react-scripts test --coverage",
     "eject": "react-scripts eject",
-    "eslint": "eslint src/**/*.js src/**/*.jsx"
+    "eslint": "eslint src/**/*.{js,jsx}"
+  },
+  "jest": {
+    "resetMocks": false
   },
   "eslintConfig": {
     "extends": [
