@@ -2,7 +2,7 @@ import { BrowserRouter as Router } from "react-router-dom"
 import { render, screen } from '@testing-library/react'
 import TodoFooter from '../TodoFooter'
 
-describe('TodoFooter component', () => {
+describe('TodoFooter', () => {
 
     const MockTodoFooter = ({ numberOfIncompleteTasks }) => {
         return (
