@@ -31,7 +31,7 @@ jobs:
       - name: Build React App 🏗️
         run: |
           npm run build --if-present
-      - name: Run React Components Tests 🧪
+      - name: Run React Tests 🧪
         run: |
           CI=true npm test
       - name: Start React App 🧘‍♂️
